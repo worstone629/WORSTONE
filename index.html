@@ -13,16 +13,16 @@
   </head>
   <body>
     <section id="title">
-      <div class="container-fluid">
+      <div class="container">
         <nav class="navbar  navbar-expand-lg navbar-light">
             <a class="navbar-brand" href="">WORSTONE</a>
              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ml-auto">
+            <ul class="navbar-nav ml-auto mr-4">
                 <li class="nav-item">
-                    <a class="nav-link" class="contacts" href="">Contact</a>
+                    <a class="nav-link" id="contacts" data-toggle="modal" data-target="#myModal">Contact</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" class="about-me" href="">about-me</a>
@@ -35,6 +35,7 @@
         </nav>
       </div>
     </section>
+
 
     <section>
       <div class="container-fluid" class="container-sm">
@@ -54,7 +55,7 @@
           </div>
         </div>
         <div class="row">
-        <div class="col-lg-12" style="background-color:#E0EBE8 ">
+        <div class="col-lg-12 " style="background-color:#E0EBE8 ">
            <p class="web pt-4">A Web-Desigener</p>
         </div>
       </div>
@@ -221,7 +222,7 @@
   <div class="container-fluid">
     <div class="row">
       <div class="col-12">
-         <h3 class="freelancer">I'm Currently available for freelancer work</h3>
+         <h3 class="freelancer" id="freelencer">I'm Currently available for freelancer work</h3>
       </div>
   </div>
   <br>
@@ -240,7 +241,7 @@
     <div class="row">
             <div class="col-12">
               <p class="press">Press This Button</p>
-              <a class="btn mx-auto d-block" href="mailto:majishambhunath@gmail.com"><button class="button">MESSAGE ME</button></a>
+              <a class="btn mx-auto d-block" href="" data-toggle="modal" data-target="#myModal"><button class="button">MESSAGE ME</button></a>
               </div>
     </div>
 
@@ -282,7 +283,48 @@
 
 </section>
 
+<section>
+  <div class="container">
+    <div class="modal fade" id="myModal">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
 
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h4 class="modal-title">Contact</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+
+        <!-- Modal body -->
+        <div class="modal-body">
+          <form  action="mailto:majishambhunath@gmail.com" method="post" enctype="text/plain">
+            <div class="form-group">
+                <label for="exampleFormControlInput1">Email Address :-</label>
+                <input type="email" class="form-control" name="Email" id="exampleFormControlInput1" placeholder="name@example.com">
+           </div>
+           <div class="form-group">
+                 <label for="exampleFormControlTextarea1">Enter Your Message :-</label>
+                 <textarea class="form-control" name="Message" id="exampleFormControlTextarea1" rows="4"></textarea>
+           </div>
+           <div class="col-auto">
+                  <button type="submit" class="btn btn-primary mb-2 mx-auto d-block">Submit</button>
+           </div>
+
+          </form>
+        </div>
+
+        <!-- Modal footer -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  </div>
+
+
+</section>
 
 
 
@@ -290,3 +332,4 @@
 
   </body>
 </html>
+
