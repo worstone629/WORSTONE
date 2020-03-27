@@ -12,6 +12,9 @@ body{
 .navbar:hover{
   background-color:  #b7e1d8;
 }
+#contacts{
+  cursor: pointer;
+}
 .iam{
   color: #4AB19A;
   text-align: center;
@@ -152,5 +155,5 @@ body{
   background-color: #E0EBE8;
 }
 .nav-item{
-  padding: 0px 30px;
+  padding: 0px 15px;
 }
