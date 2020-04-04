@@ -1,0 +1,159 @@
+body{
+  padding:0;
+  margin:0;
+}
+
+.navbar{
+  background-color: #E0EBE8;
+  font-size: 20px;
+  font-family: "Comic Sans MS";
+  font-weight: bold;
+}
+.navbar:hover{
+  background-color:  #b7e1d8;
+}
+#contacts{
+  cursor: pointer;
+}
+.iam{
+  color: #4AB19A;
+  text-align: center;
+  font-size: 70px;
+  font-family: "Comic Sans MS";
+  font-weight: bold;
+}
+.name{
+  color: #4AB19A;
+  text-align: center;
+  font-size: 50px;
+  font-family: "Comic Sans MS";
+  font-weight: bold;
+}
+.title{
+  color: #4AB19A;
+  text-align: center;
+  font-size: 50px;
+  font-family: "Comic Sans MS";
+  font-weight: bold;
+}
+.web{
+  color: black;
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+
+
+}
+
+
+#title{
+  background-color:  #E0EBE8;
+}
+.hi{
+  color: #4AB19A;
+  text-align: center;
+  font-size: 50px;
+  font-family: "Comic Sans MS";
+  font-weight: bold;
+}
+.txt{
+  text-align: center;
+  font-size: 30px;
+  font-family: "Comic Sans MS";
+
+}
+.what{
+  color: #4AB19A;
+  text-align: center;
+  font-size: 50px;
+  font-family: "Comic Sans MS";
+  font-weight: bold;
+}
+.skills{
+  color: #4AB19A;
+  text-align: center;
+  font-size: 40px;
+  font-family: "Comic Sans MS";
+  font-weight: bold;
+}
+.para1{
+
+  text-align:center;
+  font-size: 30px;
+  font-family: "Comic Sans MS";
+
+}
+.develop{
+  color: #4AB19A;
+  text-align: center;
+  font-size: 40px;
+  font-family: "Comic Sans MS";
+  font-weight: bold;
+}
+#asta{
+  width:424px;
+}
+.para2{
+  text-align:center;
+  font-size: 30px;
+  font-family: "Comic Sans MS";
+}
+.freelancer{
+  color: #4AB19A;
+  text-align: center;
+  font-size: 40px;
+  font-family: "Comic Sans MS";
+  font-weight: bold;
+}
+.para3{
+  text-align:center;
+  font-size: 30px;
+  font-family:"Comic Sans MS";
+}
+.press{
+  color: #4AB19A;
+  text-align:center;
+  font-size: 40px;
+  font-family:"Comic Sans MS";
+}
+.button{
+  width:180px;
+  height:100px;
+  background-color: white;
+  border: 6px solid;
+  border-color:#3c907e;
+  transition-duration: 0.4s;
+  border-radius: 9px;
+  font-family: cursive;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.button:hover{
+  background-color: #456e67;
+  color: white;
+
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+  }
+  #link1{
+    color:#3366ff;
+    font-size: 25px;
+    }
+    #link1:hover{
+      color:white;
+      background-color: rgba(0, 0, 0, 0.5);
+    }
+    #link2{
+      color:  #ff4d4d;
+      font-size: 25px;
+      }
+    #link2:hover{
+      color:  white;
+      background-color: rgba(0, 0, 0, 0.5);
+    }
+.container1{
+  background-color: #E0EBE8;
+}
+.nav-item{
+  padding: 0px 15px;
+}
