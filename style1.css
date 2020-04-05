@@ -40,6 +40,8 @@
 #con{
   font-size: 25px;
   color:white;
+  font-weight: 600;
+  text-align: center;  
 }
 #worst{
   width:30px;
